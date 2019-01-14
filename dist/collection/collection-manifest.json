@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "tag": "agc-field-capacity",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacity",
+      "componentPath": "components/agc-field-capacity/agc-field-capacity.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        },
+        {
+          "name": "tract",
+          "type": "String",
+          "attr": "tract"
+        },
+        {
+          "name": "units",
+          "type": "Any",
+          "attr": "units"
+        }
+      ],
+      "states": [
+        {
+          "name": "cache"
+        },
+        {
+          "name": "currentStep"
+        },
+        {
+          "name": "results"
+        },
+        {
+          "name": "submitted"
+        }
+      ],
+      "events": [
+        {
+          "event": "agcCalculated"
+        },
+        {
+          "event": "agcStepChanged"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-inputs",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityInputs",
+      "componentPath": "components/agc-field-capacity-inputs/agc-field-capacity-inputs.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-progress",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityProgress",
+      "componentPath": "components/agc-field-capacity-progress/agc-field-capacity-progress.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "currentStep"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-results",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityResults",
+      "componentPath": "components/agc-field-capacity-results/agc-field-capacity-results.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-results-placeholder",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityResultsPlaceholder",
+      "componentPath": "components/agc-field-capacity-results-placeholder/agc-field-capacity-results-placeholder.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

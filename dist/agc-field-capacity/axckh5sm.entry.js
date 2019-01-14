@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:a}=window.AgcFieldCapacity;class l{render(){const l=()=>a("span",null,a("i",{class:"mark"})," ",a("i",{class:"mark"})," ",a("i",{class:"mark"})," ",a("i",{class:"mark"}));return a("section",null,a("ul",{class:"agc-results-placeholder"},a("li",null,a("h2",{"data-i18n":"results.field-capacity"},"Field Capacity"),l()),a("li",null,a("h2",{"data-i18n":"results.per-hour"},"Field Capacity per Hour"),l())))}static get is(){return"agc-field-capacity-results-placeholder"}}export{l as AgcFieldCapacityResultsPlaceholder};
